@@ -19,7 +19,7 @@ const dbConnect = (app) => {
             err => console.log('Error al conectarse: ' + err)
         )
 
-        const objetoBD = mongoose.connection;
+/*         const objetoBD = mongoose.connection;
         objetoBD.on(
             'connected',
             () => {
@@ -31,7 +31,7 @@ const dbConnect = (app) => {
             () => {
                 console.log('Conexión fallida con MongoDB.')
             }
-        );
+        ); */
 }
 
 
