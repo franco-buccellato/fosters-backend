@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'backend-fosters'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4404498BA2FF444AA542326BDC70457C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_58F36DD59CB74557A50070D3FC1A7D76 }}
           package: .
